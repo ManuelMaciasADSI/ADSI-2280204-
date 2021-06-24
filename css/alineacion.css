@@ -13,3 +13,17 @@ p {
 .alineacion-justificada {
     text-align: justify;
 }
+.texto-indentado{
+    text-indent: 3em;
+    text-align: justify;
+    line-height: 1.5em;
+}
+.texto-enfatizado {
+    font-size: 5em;
+}
+blockquote {
+    font-size: 2em;
+    color: grey;
+    font-style: italic;
+    text-align: right;
+}
