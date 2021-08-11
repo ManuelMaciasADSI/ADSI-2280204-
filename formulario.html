@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formulario.css">
+    <title>formulario</title>
+</head>
+<body>
+    <h1>Solicitud servicio drones</h1>
+    <form action="" method="get">
+        <fieldset>
+            <div class="formulario">
+            <label>Nombres</label><br>
+            <input type="text" name="nombres"><br>
+            <label>Apelildos</label><br>
+            <input type="text" name="Apelildos"><br><br>
+             <label>Tipo de documento</label><br>
+            <label><input type="radio"name="radio"value="CC">CC</label><br>
+            <label><input type="radio"name="radio"value="CE">CE</label><br><br>
+            <label>Apllicacion en area</label><br>
+            <label><input type="checkbox" value="agro">Agro</label><br>
+            <label><input type="checkbox" value="mapeo">Mapeo</label><br>
+            <label><input type="checkbox" value="seguridad">Seguridad</label><br>
+            <label><input type="checkbox" value="rescate">Rescate</label><br><br>
+            <label>Observaciones</label><br>
+            <textarea name="observaciolnes" cols="30" rows="7"></textarea><br><br>
+            <label>Metodo de pago</label><br>
+            <select name="pago">
+            <option value="efectivo"><label>efectivo</label></option><br>
+            <option value="tarjeta"><label>tarjeta</label></option><br>
+            </select><br><br><br>
+            <input type="submit" value="Enviar">
+            </div>
+         </fieldset>
+    </form>
+</body>
+</html>
