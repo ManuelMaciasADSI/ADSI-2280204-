@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    position: fixed;
+    height: 100%;
+    top: 0;
+    background-color: saddlebrown;
+    width: 340px;
+    overflow: auto;
+}
+ul {
+    list-style: none;
+    /*margin: 40px 20px 40px 25px;*/
+    margin-top: 40px;
+    height: 100%;
+}
+li {
+    padding: 20px;
+    border-bottom: 1px solid rgb(26,26,26,9);
+}
+li:hover {
+    background-color: sandybrown;
+    cursor: pointer;
+}
+a {
+    display: block;
+    text-decoration: none;
+    color: bisque;
+    margin: 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+a:hover {
+    text-decoration: none;
+    color: rgb(143, 126, 105);
+    margin: 20px;
+    font-size: 1.5em;
+}
+
+i {
+    margin-right: 10px;
+}
+.content-main {
+    /*width: 90%;*/
+    margin: 0 2em 0 22em;
+    text-align: justify;
+}
+p {
+    font-size: 1.3em;
+}
+h1 {
+    text-align: right;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    color: rgb(64,64,64);
+    font-weight: 900;
+    
+}
+.fa-building .fa-phone .fa-blog{
+    margin-right: 14px;
+}
