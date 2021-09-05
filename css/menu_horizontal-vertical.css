@@ -1,0 +1,13 @@
+/** {
+    margin: 0;
+    padding: 0;
+}*/
+li {
+    padding: 20px;
+    float: left;
+    border: none;
+    border-right: 1px solid #fb5b04;
+}
+a {
+    text-decoration: none;
+} 
