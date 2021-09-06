@@ -7,6 +7,9 @@
     <title>Menu responsive</title>
     <link rel="stylesheet" href="css/menu_responsive.css">
     <link rel="stylesheet" href="fonts/style.css">
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="icons/all.css">
 </head>
 <body>
     <div class="menu-bar">
@@ -14,8 +17,8 @@
     </div>
     <nav>
         <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Productos</a>
+            <li class="submenu"><a href="index.html">Inicio <span class="icon-chevron-small-down"></span></a></li>
+            <li class="submenu"><a href="#">Productos <span class="icon-chevron-small-down"></span></a>
                 <ul class="children">
                     <li><a href="#">Productos Hogar</a></li>
                     <li><a href="#">Productos oficina</a></li>
