@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.img-prinsipal {
+    width: 100%;
+    position: absolute;
+    z-index: 5;
+}
+h1 {
+    text-align: center;
+    color: rgb(39, 22, 22);
+}
+.img-prinsipal-invisible {
+    width: 100%;
+}
+p {
+    margin: 35px;
+    font-size: 1.3em;
+    text-align: justify;
+}
+nav {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+} 
+ul {
+    text-align: right;
+    width: 100%;
+}
+li {
+    display: inline-block;
+    margin: 17px;
+    color: rgb(225, 142, 65);
+    font-size: 1.3em;
+}
+a {
+    text-decoration: none;
+    color: rgb(225, 142, 65);
+}
