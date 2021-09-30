@@ -1,0 +1,102 @@
+.box-style-1 {
+    background: darkorange;
+}
+.box-style-2 {
+    background: darkorange;
+    height: 300px;
+}
+.box-style-3 {
+    background: darkorange;
+    height: 400px;
+}
+.flex-direction-row {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.flex-direction-colum {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.flex-wrap {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.flex-no-wrap {
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap;
+}
+.flex-flow-colum-wrap {
+    display: flex;
+    gap: 20px;
+    flex-flow: column wrap;
+    overflow-x: scroll;
+}
+.flex-flow-colum-no-wrap {
+    display: flex;
+    gap: 20px;
+    flex-flow: column nowrap;
+}
+.flex-justify-space-betwen {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.flex-justify-space-around {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+.flex-justify-space-evenly {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+.flex-justify-flex-start {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+}
+.flex-justify-flex-end {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+.flex-justify-flex-center {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.aling-items-flex-start {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+.aling-items-flex-end {
+    display: flex;
+    gap: 20px;
+    align-items: flex-end;
+}
+.aling-items-flex-center {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.item-flex {
+    background: darkgray;
+    width: 200px;
+    height: 200px;
+    color: darkolivegreen;
+    font-size: 1.5em;
+}
+.item-flex_3 {
+    background: darkgray;
+    width: 200px;
+    height: 300px;
+    color: darkolivegreen;
+    font-size: 1.5em;
+}
