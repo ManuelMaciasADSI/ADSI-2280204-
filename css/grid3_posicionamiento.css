@@ -45,3 +45,6 @@ background-color: seagreen;
     font-style: italic;
     font-size: 1.8em;
 }
+.contenedor > .Festivos {
+    background: palevioletred;
+}
