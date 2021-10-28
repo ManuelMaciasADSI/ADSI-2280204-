@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>documento de bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap_style_mine.css">
+</head>
+<body>
+    <h1>Elementos de bootstrap</h1>
+    <h2>containers</h2>
+    <div class="container container-style">
+        container xs
+    </div>
+    <div class="container-sm container-style">
+        container sm
+    </div>
+    <div class="container-md container-style">
+        container md
+    </div>
+    <div class="container-lg container-style">
+        container lg
+    </div>
+    <div class="container-xl container-style">
+        container xl
+    </div>
+    <div class="container-xxl container-style">
+        container xxl
+    </div>
+    <div class="container-fluid container-style">
+        container-fluid
+    </div>
+    <h2>columnas</h2>
+    <div class="container-xl">
+        <div class="row row-style">    
+            <div class="col col-style">
+                columna 1
+            </div>
+            <div class="col col-style">
+                columna 2
+            </div>
+            <div class="col col-style">
+                columna 3
+            </div>
+            <div class="col col-style">
+                columna 4
+            </div>
+            <div class="col col-style">
+                columna 5
+            </div>
+            <div class="col col-style">
+                columna 6
+            </div>
+            <div class="col col-style">
+                columna 7
+            </div>
+            <div class="col col-style">
+                columna 8
+            </div>
+            <div class="col col-style">
+                columna 9
+            </div>
+            <div class="col col-style">
+                columna 10
+            </div>
+            <div class="col col-style">
+                columna 11
+            </div>
+            <div class="col col-style">
+                columna 12
+            </div>
+        </div>
+        <div class="row row-style">    
+            <div class="col col-style">
+                columna 1
+            </div>
+            <div class="col-3 col-style">
+                columna 2
+            </div>
+            <div class="col-5 col-style">
+                columna 3
+            </div>
+            <div class="col col-style">
+                columna 4
+            </div>
+            <div class="col-2 col-style">
+                columna 5
+            </div>
+        </div>
+    </div>
+    <h2>basic form</h2>
+    <div class="container col-5">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre cliente">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Ingrese su PQRS</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+    </div>
+    <h2>varios contenedores</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-2"></div> 
+                  <div class="mb-3 col-4">
+                  <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre cliente">
+                  </div>
+                  <div class="mb-3 col-4">
+                  <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre cliente">
+                  </div>
+            <div class="col-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-2"></div> 
+                  <div class="mb-3 col-4">
+                  <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre cliente">
+                  </div>
+                  <div class="mb-3 col-4">
+                  <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre cliente">
+                  </div>
+            <div class="col-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-2"></div> 
+                  <div class="mb-3 col-4">
+                  <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre cliente">
+                  </div>
+                  <div class="mb-3 col-4">
+                  <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre cliente">
+                  </div>
+            <div class="col-2"></div>
+        </div>
+    </div>
+    <h2>select</h2>
+    <div class="container">
+        <div class="row row-style">
+            <div class="col4">
+                <label>Seleccionar el municipio de residencia</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Municipios</option>
+                    <option value="1">Pitalito</option>
+                    <option value="2">San Agustin</option>
+                    <option value="3">Acevedo</option>
+                    <option value="3">Timana</option>
+                  </select>
+            </div>
+        </div>
+    </div>
+    <h2>select</h2>
+    <div class="container">
+        <div class="row row-style">
+            <div class="col4">
+                <label>Seeccionar las librerias y/o frameworks que utilizan actualmente</label>
+                <div class="form-check pointer">
+                    <input class="form-check-input check-pointer" type="checkbox" value="" id="checkreact">
+                    <label class="form-check-label check-pointer" for="checkreact">
+                     React.js
+                    </label>
+                  </div>
+                  <div class="form-check ">
+                    <input class="form-check-input check-pointer" type="checkbox" value="" id="checkbootstrap">
+                    <label class="form-check-label check-pointer" for="checkbootstrap">
+                     bootstrap
+                    </label>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <h2>radio</h2>
+    <div class="container">
+        <div class="row row-style">
+            <div class="col4">
+                <label>Que lenguage de programacion usa</label>
+                <div class="form-check">
+                    <input class="form-check-input check-pointer" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label check-pointer" for="flexRadioDefault1">
+                      java
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input check-pointer" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label check-pointer" for="flexRadioDefault1">
+                      java
+                    </label>
+                  </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <h2>Boton</h2>
+    <div class="container">
+        <div class="row row-style">
+            <div class="col-2">
+                <button type="button" class="btn btn-success btn-style">Aceptar</button>
+        </div>
+        <div class="col-2">
+            <button type="button" class="btn btn-danger btn-style">Cancelar</button>
+        </div>
+    </div>
+</body>
+</html>
