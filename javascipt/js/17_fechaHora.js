@@ -65,3 +65,21 @@ Ames[9] = "Octubre"
 Ames[10] = "Noviembre"
 Ames[11] = "Diciembre"
 console.log ("Fecha: " + AdiaSemana [diaSemana]+" " + dia + " de " + Ames [mes] + " Del año " + anyo);
+
+/*Determinar si ya termino el tiempo*/
+var fechaHoraLimite = new Date(Date.UTC(2021, 11, 9, 9, 30));
+fechaHoraLimite.setHours(8);
+console.log("Fecha y Hora de vencimiento: " + fechaHoraLimite);
+
+if (anyo <= fechaHoraLimite.getFullYear() && 
+    mes <= fechaHoraLimite.getMonth() &&
+    hora <= fechaHoraLimite.getUTCHours() &&
+    minutos <= fechaHoraLimite.setMinutes()) {
+    console.log("Falta: " + (dia - fechaHoraLimite.getDate()) + "Dias, " +
+    (hora - fechaHoraLimite.getHours()) + "Horas, " + 
+    (fechaHoraLimite.getMinutes()- minutos) + "Minutos");
+    console.log("El envio fue realizado con exito")
+    } 
+    else {
+        console.log("Lo siento, la fecha de envio ya paso.")
+    }
